@@ -1,0 +1,46 @@
+:root {
+    --primary-color: hsl(0, 100%, 74%);
+    --secondary-color: hsl(154, 59%, 51%);
+}
+
+body {
+    background-image: url(intro-component-with-signup-form-master/images/bg-intro-desktop.png);
+    background-color: var(--primary-color);
+    font-size: 16px;
+}
+.my-alert {
+    background-color: hsl(248, 32%, 49%);
+    text-align: center;
+    color: white;
+    font-weight: 200;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.my-alert strong { font-weight: 700; }
+.form-register {
+    border-radius: 0.5em;
+    padding: 2em;
+}
+.form-register input {
+    padding: 0.7em;
+}
+.form-register .btn-mybtn {
+    background-color: var(--secondary-color);
+    color: white;
+    padding: 0.8em;
+    box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.3);
+}
+.form-register .btn-mybtn:active {
+    opacity: 0.6;
+}
+.form-register p {
+    color: hsl(246, 25%, 77%);
+    text-align: center;
+    margin-top: 1em;
+}
+.form-register a {
+    color: var(--primary-color);
+    font-weight: bold;
+    text-decoration: none;
+}
+
+
